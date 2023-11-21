@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/contact_page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Contact / Mario Romagnoli - Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="menu-logo">mr</a>
+        <input class="menu-btn" id="menu-btn" type="checkbox" >
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+         <li><a href="./index.html">Home</a></li>
+         <!-- <li><a href="#about">about</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contact">Contact</a></li> -->
+        </ul>
+    </header>
+    <main>
+        <div class="cont_contact">
+            <div class="contact_box_pg">
+                <h3><span class="span_red">//</span>contact form</h3>
+                <form>
+                    <div class="input-group">
+                        <label for="name"> Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="email" name="mail" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="message">Object</label>
+                        <textarea id="message" rows="10" required></textarea>
+                    </div>
+                    <div class="input-group group-button">
+                        <button type="submit" class="btn-one btn-submit" > invia</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
