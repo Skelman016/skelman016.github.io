@@ -486,12 +486,12 @@ hr{
 
 /* =================== Cards Images =======================*/
 
-.img-copy{
-    background-image: url(../image/ads-logo.png);
+.img-html{
+    background-image: url(../image/proj_covers/Copertina-Portfolio-proj.png);
 }
 
-.img-html{
-    background-image: url(../image/Progetto\ senza\ titolo\ \(1\).png);
+.img-copy{
+    background-image: url(../image/proj_covers/copertina-copy.png);
 }
 
 /* ===========Contact Section===========*/
