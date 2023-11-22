@@ -97,8 +97,8 @@
     /* border: 1px solid red; */
     padding: 30px;
 }
-.section-cv p{
-    font-size: clamp(0.70rem, 2vw, 0.90rem);
+.section-cv p,.section-cv li{
+    font-size: clamp(0.80rem, 2vw, 0.90rem);
     line-height: 1.35rem;
 
 }
