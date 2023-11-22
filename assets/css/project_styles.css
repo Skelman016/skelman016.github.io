@@ -61,6 +61,11 @@
     width: fit-content;
     margin-right: 10px;
 }
+
+.tag-dev{
+    border: 2px #2b6fee solid ;
+}
+
 .contain-proj{
     flex-wrap: wrap;
     max-width: 1980px;
