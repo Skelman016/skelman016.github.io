@@ -41,13 +41,24 @@
     <main>
         
         <section class="cont_contact">
-            
+
+            <!-- Contact Form -->
             <div class="contact_box_pg">
                 
                 <h3><span class="span_red">//</span>contact form</h3>
                 
                 <form action="https://formsubmit.co/9e5e2a779470c9ed54fcad32d2dc22fd" method="POST" >
+
+                    <!--HONEYPOT-->
+                    <input type="text" name="_honey" style="display: none;">
                     
+                    <!--DISABLE CAPTCHA-->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!--SUCCESS PAGE-->
+                    <input type="hidden" name="_next" value="">
+                    
+
                     <div class="input-group">
 
                         <label for="name"> Name</label>
