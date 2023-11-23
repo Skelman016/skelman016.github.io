@@ -12,45 +12,79 @@
     <title>Contact / Mario Romagnoli - Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <a href="./index.html" class="menu-logo">mr</a>
+     
+    <!-- Navbar -->
+     <header class="header">
+           
+        <!-- LOGO Navbar -->
+        <a href="./index.html" class="menu-logo">mr</a> 
+
+       <!-- Menu Button (Mobile) -->
         <input class="menu-btn" id="menu-btn" type="checkbox" >
+        
         <label for="menu-btn" class="menu-icon">
             <span class="nav-icon"></span>
         </label>
+        
+        <!-- Menu -->
         <ul class="menu">
-         <li><a href="./index.html">Home</a></li>
-         <!-- <li><a href="#about">about</a></li>
-         <li><a href="#portfolio">Portfolio</a></li>
-         <li><a href="#contact">Contact</a></li> -->
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="./portfolio">Projects</a></li>
+         <li><a href="#contact">Contact</a></li>
+       
         </ul>
+   
     </header>
+    
+    
     <main>
-        <div class="cont_contact">
+        
+        <section class="cont_contact">
+            
             <div class="contact_box_pg">
+                
                 <h3><span class="span_red">//</span>contact form</h3>
-                <form>
+                
+                <form action="https://formsubmit.co/9e5e2a779470c9ed54fcad32d2dc22fd" method="POST" >
+                    
                     <div class="input-group">
-                        <label for="name"> Name
-                        </label>
+
+                        <label for="name"> Name</label>
                         <input type="text" id="name" name="name" required>
+                    
                     </div>
                     
                     <div class="input-group">
+
                         <label for="mail">E-mail</label>
-                        <input type="email" id="email" name="mail" required>
+                        <input type="email" id="email" name="email" required>
+                    
                     </div>
                     
                     <div class="input-group">
+                        
                         <label for="message">Object</label>
-                        <textarea id="message" rows="10" required></textarea>
+<<<<<<< HEAD
+                        <textarea id="message"  name="message" rows="10" required></textarea>
+=======
+                        <textarea id="message" rows="10" name="textarea" required></textarea>
+>>>>>>> 98ef31eaeaec883f0325feb22d2385a6172e163c
+                    
                     </div>
+                    
                     <div class="input-group group-button">
+                        
                         <button type="submit" class="btn-one btn-submit" > invia</button>
+                    
                     </div>
+                
                 </form>
+            
             </div>
-        </div>
+        
+        </section>
+    
     </main>
    
    
