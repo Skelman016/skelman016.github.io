@@ -549,11 +549,17 @@ hr{
 
 footer{
     background-color: #000;
-    height: 5rem;
+    height: 6rem;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer p{
+    font-size: 0.875rem;
+    opacity: 60%;
 }
 
 .social{
@@ -561,7 +567,7 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 50%;
     column-gap: 2.5rem;
 }
 
