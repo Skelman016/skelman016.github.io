@@ -292,19 +292,21 @@ hr{
 .hero-section{
     background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(16,26,98,1) 10%);;
     padding: 120px 165px 0 165px;
-    justify-content: flex-start;
+    justify-content: center;
 }
+
 
 .tagline-group{
     max-width: 100%;
     max-height: 100%;
-    /* margin-top: 20rem;  */
     height: 100%;
 }
+
 
 .title-dm{
     margin-bottom: 25px;
 }
+
 
 .hero-section .social p,
 .hero-section .social .social-svg{
