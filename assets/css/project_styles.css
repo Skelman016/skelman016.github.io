@@ -81,6 +81,11 @@
     height: 100%;
 }
 
+.pjtitle{
+    display: flex;
+    margin-top: 0.7rem;
+}
+
 @media (max-width: 1024px) {
     .proj-pre{
         margin:  80px 1.2rem;
@@ -143,6 +148,12 @@
 .cv-text{
     font-size: clamp(0.95rem, 2vw, 1.25rem);
     line-height: 1.9rem;
+}
+
+.wrkexp{
+    max-width: 370px;
+    width: 100%;
+    margin-top: 4rem;
 }
 
 .social-cv{

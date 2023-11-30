@@ -168,7 +168,7 @@ h2{
 }
 
 
-h3 {
+h3, .tl3 {
     font-size: clamp(14px, 2vw, 30px);
     font-weight:  500;
     line-height: normal;
@@ -184,7 +184,7 @@ h3 {
     color: #cdee2b;
 }
 
-h4{
+h4, .tl4{
     font-size: clamp(14px, 2vw, 20px);
     font-weight:  500;
     line-height: normal;
@@ -283,9 +283,19 @@ hr{
     justify-content: center;
 }
 
+.alitmC{align-items: center;}
 
+.mbt10{margin-bottom: 10px;}
 
+.mtp40{margin-top: 40px;}
 
+.ma40{ margin: 40px auto;}
+
+.gap50{ gap: 50px;}
+
+.minhg70{min-height: 70vh;}
+
+.txtnone{text-transform: none;}
 /*=========== Hero Section ============*/
 
 
@@ -304,8 +314,9 @@ hr{
 
 
 .title-dm{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
+
 
 
 .hero-section .social p,
