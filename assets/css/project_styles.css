@@ -135,7 +135,7 @@
 
 
 .cv_image img{
-    max-width: 550px;
+    max-width: 30vw;
     width: 100%;
     border-radius: 50% 50% 50% 30px;
 }

@@ -193,7 +193,7 @@ h4{
 
 
 p{
-    font-size: clamp(0.75rem, 2vw, 1.25rem);
+    font-size: clamp(0.75rem, 1vw, 1.25rem);
     font-weight: 400;
     line-height: normal;
 }
@@ -345,13 +345,13 @@ hr{
 /*=========== About Section ======*/
 
 .abt-box{
-    column-gap: 380px;
+    column-gap: 10vw;
     row-gap: 100px;
     align-items: center;
 }
 
 .abt-msg{
-    max-width: 50%;
+    max-width: 40%;
     width: 500px;
     max-height: 700px;
     font-size: 0.10em;
@@ -362,7 +362,7 @@ hr{
 }
 
 .img-box img{
-    max-width: 600px;
+    max-width: 30vw;
     width: 100%;
     border-radius: 20%;
 
@@ -383,7 +383,7 @@ hr{
 
     .abt-msg{
         margin-bottom: 25%;
-        max-width: 100%;
+        max-width: 50%;
         width: 200rem;
     }
 
